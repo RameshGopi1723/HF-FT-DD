@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+*.deb
+*.rpm
+*.manifest
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+*.log
+
+# PyInstaller
+#  Executable files created by PyInstaller, can be added here
+#  or to the build directory listed above
+# *_frozen
+# # Windows-specific executables
+# *.exe
+# *.dll
+
+# IDEs and editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Uploaded Files
+/media
+/instance
+
+# Poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+
+models/
+HFDataset/
+HFFinetunedModel/
+HFModels/
+output/
